@@ -1,10 +1,22 @@
-<!DOCTYPE html>
-<html lang="ja">
+<!doctype html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>HTML/CSS</title>
+<meta charset="utf-8"/>
+<title>ポップアップ</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
 </head>
-<body>Gitテスト</body>
+<body>
+<div id="slide">
+  <!-- スライドショーで使う複数の画像を配置する -->
+  <div class="image" style="background: red;"></div>
+  <div class="image" style="background: blue;"></div>
+  <div class="image" style="background: orange;"></div>
+  <div class="image" style="background: green;"></div>
+  <div class="image" style="background: purple;"></div>
+</div>
+<button id="rev">前へ</button>
+<button id="next">次へ</button>
+</body>
 </html>
